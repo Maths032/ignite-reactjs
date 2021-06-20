@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5",                                
+    "module": "commonjs",                           
+    "lib": ["DOM", "DOM.Iterable", ],                                   
+    "jsx": "preserve",                           
+    "noEmit": true,                               
+    "strict": true,                                 
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,                  
+    "esModuleInterop": true,                        
+    "skipLibCheck": true,                           
+    "forceConsistentCasingInFileNames": true        
+  },
+  "include": ["src"]
+}
